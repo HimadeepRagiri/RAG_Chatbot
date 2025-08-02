@@ -23,6 +23,7 @@
 - [Limitations](#limitations)
 - [Future Improvements](#future-improvements)
 - [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## 📋 Overview
@@ -72,11 +73,8 @@ The RAG-Chatbot follows a modular architecture with the following main component
 
 1. **Clone the repository**:
    ```bash
-   git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-   cd ML-and-DL-Projects
-   git sparse-checkout init --cone
-   git sparse-checkout set NLP_Projects/RAG-Chatbot
-   cd NLP_Projects/RAG-Chatbot
+   git clone https://github.com/HimadeepRagiri/RAG_Chatbot.git
+   cd RAG_Chatbot
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -153,6 +151,7 @@ RAG-Chatbot/
 │   ├── vector_db.py            # Vector database operations
 │   └── qa.py                   # QA chain implementation
 ├── app.py                      # Main Gradio application
+├── LICENSE                     # MIT License
 └── images-videos/              # Demo images and videos
     ├── Image1.png              # Attention Is All You Need paper summary
     ├── Image2.png              # Low Rank Adaptation paper summary
@@ -270,6 +269,10 @@ Contributions to improve RAG-Chatbot are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
